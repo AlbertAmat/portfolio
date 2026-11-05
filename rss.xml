@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>Albert Amat</title>
+  <link>https://albertamat.dev/blog.html</link>
+  <description>Notes on software, security and taking things apart.</description>
+  <language>en</language>
+  <lastBuildDate>Thu, 05 Nov 2026 12:00:00 +0000</lastBuildDate>
+  <atom:link href="https://albertamat.dev/rss.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Hello, world</title>
+    <link>https://albertamat.dev/posts/hello-world.html</link>
+    <guid>https://albertamat.dev/posts/hello-world.html</guid>
+    <pubDate>Thu, 05 Nov 2026 12:00:00 +0000</pubDate>
+    <description>The first post on the new site: plain HTML and one small stylesheet.</description>
+  </item>
+</channel>
+</rss>

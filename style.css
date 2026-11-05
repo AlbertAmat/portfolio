@@ -25,3 +25,15 @@ img { max-width: 100%; }
 .nav     { margin: 0.8em 0; }
 .date    { color: #555; font-size: 0.9em; }
 .footer  { color: #555; font-size: 0.85em; }
+
+/* Dark mode: follows the visitor's system setting. */
+@media (prefers-color-scheme: dark) {
+  body { color: #ddd; background: #111; }
+  a:link    { color: #7aa7ff; }
+  a:visited { color: #b79cff; }
+  a:hover   { color: #ff8a8a; }
+  hr { border-top-color: #555; }
+  pre { background: #222; }
+  blockquote { border-left-color: #555; }
+  .tagline, .date, .footer { color: #aaa; }
+}
