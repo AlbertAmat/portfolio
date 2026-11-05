@@ -1,0 +1,27 @@
+/* Minimal, circa-2000 stylesheet. Default browser look, just a bit more readable. */
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.1em;
+  line-height: 1.5;
+  color: #000;
+  background: #fff;
+  max-width: 40em;
+  margin: 1em auto;
+  padding: 0 1em;
+}
+a:link    { color: #0000cc; }
+a:visited { color: #551a8b; }
+a:hover   { color: #cc0000; }
+h1, h2, h3 { font-family: Georgia, "Times New Roman", Times, serif; }
+h1 { font-size: 1.8em; margin-bottom: 0; }
+h2 { font-size: 1.3em; margin-top: 1.6em; }
+hr { border: 0; border-top: 1px solid #999; margin: 1.2em 0; }
+pre, code { font-family: "Courier New", Courier, monospace; font-size: 0.95em; }
+pre { background: #eee; padding: 0.6em; overflow-x: auto; }
+blockquote { margin-left: 1.5em; padding-left: 1em; border-left: 3px solid #ccc; }
+img { max-width: 100%; }
+
+.tagline { margin-top: 0.2em; color: #555; font-style: italic; }
+.nav     { margin: 0.8em 0; }
+.date    { color: #555; font-size: 0.9em; }
+.footer  { color: #555; font-size: 0.85em; }
